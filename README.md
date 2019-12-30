@@ -63,3 +63,16 @@ In our scripts we are using batch size of 64 images at a time. To change this wh
 
 In this project we used 20 different classes to test the results. In case you need to change the number of classes go to the script *train.py* and modify the global variable *TRAIN_CLASSES* as per your need.
 
+
+## Results
+ 
+|Model Type|Accuracy|
+|---|---|
+|DenseNet|86.93|
+|Inception-ResNet-v2|92.96|
+|MobileNet-v2|87.43|
+|NASNet-A-Large|95.47|
+|NASNet-A-Mobile|90.20|
+|VGG-16|86.18|
+|Xception|95.47|
+|Cumulative Polling|96.23|
