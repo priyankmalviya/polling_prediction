@@ -23,3 +23,14 @@ Once our models were trained, the next step was to test them and get accuracy fo
 
 Finally once we had all the models trained, our goal was to predict class of each image by taking a poll of each of the trained model on each image and see the change in result. 
 
+
+## Getting Started
+
+It is strongly recommended to run this project on any cloud platform as it requires heavy computations as it involves training the model on images. We used Google Colab to run this project. To know more about google colab refer to this link :-
+
+* (https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c)
+* (https://colab.research.google.com/notebooks/welcome.ipynb#recent=true)
+
+If you want to run this on your local machine, it should have GPU to make it run faster. 
+
+
