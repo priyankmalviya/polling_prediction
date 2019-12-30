@@ -31,6 +31,22 @@ It is strongly recommended to run this project on any cloud platform as it requi
 * (https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c)
 * (https://colab.research.google.com/notebooks/welcome.ipynb#recent=true)
 
-If you want to run this on your local machine, it should have GPU to make it run faster. 
+If you want to run this on your local machine, it should have GPU to make it run faster.
 
+
+## Execution on Google Colab
+
+To execute this project on google colab. You need a gmail account. Upload the source from this repo on your google drive. Login to your google colab and run the downloader script mentioned above to download imagenet data. 
+
+Once the data is downloaded just run the script train.py to train the seven models :-
+Eg. Running the script on google colab 
+```
+!python /content/drive/My\ Drive/source_train/train.py /path/to/training_images
+```
+
+To get the prediction run the script test.py under the folder source_test.
+Eg. Running the script on google colab
+```
+!python /content/drive/My\ Drive/source_test/test.py /path/to/test_images
+```
 
