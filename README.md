@@ -23,6 +23,12 @@ Once our models were trained, the next step was to test them and get accuracy fo
 
 Finally once we had all the models trained, our goal was to predict class of each image by taking a poll of each of the trained model on each image and see the change in result. 
 
+## Dataset
+Our dataset was downloaded using the same downloader script as referred above. 
+The data consisted of 20 different classes with 50 images per class. 
+
+For training the models 35 images were used while rest 15 images were used for testing.
+
 
 ## Getting Started
 
@@ -49,4 +55,11 @@ Eg. Running the script on google colab
 ```
 !python /content/drive/My\ Drive/source_test/test.py /path/to/test_images
 ```
+
+## Things to note
+
+To make the whole project more efficient we are reading the images in batches to avoid overhear of I/O operation. 
+In our scripts we are using batch size of 64 images at a time. To change this while running the project go to the scripts *train.py* and *test.py* and change the global variable *BATCH_SIZE* as per your resource availability.
+
+In this project we used 20 different classes to test the results. In case you need to change the number of classes go to the script *train.py* and modify the global variable *TRAIN_CLASSES* as per your need.
 
