@@ -39,6 +39,12 @@ It is strongly recommended to run this project on any cloud platform as it requi
 
 If you want to run this on your local machine, it should have GPU to make it run faster.
 
+### Requirements
+* Python 3 [How to install](http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/)
+* Keras [How to install](https://github.com/hsekia/learning-keras/wiki/How-to-install-Keras-to-Ubuntu-18.04)
+
+
+
 
 ## Execution on Google Colab
 
