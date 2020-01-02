@@ -71,6 +71,10 @@ In this project we used 20 different classes to test the results. In case you ne
 
 
 ## Results
+
+For Dataset 1:
+Number of classes - 20
+Images per class - 50
  
 |Model Type|Accuracy|
 |---|---|
