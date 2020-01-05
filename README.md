@@ -116,3 +116,18 @@ Images per class - 50
 |VGG-16|91.75|
 |Xception|95.73|
 |Cumulative Polling|98.23|
+
+For Dataset 4:
+Number of classes - 25
+Images per class - 100
+ 
+|Model Type|Accuracy|
+|---|---|
+|DenseNet|69.37|
+|Inception-ResNet-v2|66.45|
+|MobileNet-v2|65.62|
+|NASNet-A-Large|81.87|
+|NASNet-A-Mobile|79.16|
+|VGG-16|81.87|
+|Xception|74.58|
+|Cumulative Polling|82.91|
